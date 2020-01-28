@@ -1,0 +1,9 @@
+Scope of bean
+--------------
+There are totally four scope of a bean
+1. singleton - It means spring will maintain single instance of that object. (by default)
+				Object will be created during config. file loading
+2. prototype - It means for each getbean method call new instance will be created
+3. session - It means scope will be till the user is login.
+4. global session - It is mainly used in portlet project
+5. request - object will be created for each user request.

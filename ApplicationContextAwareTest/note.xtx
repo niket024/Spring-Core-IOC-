@@ -1,0 +1,17 @@
+ApplicationContextAware interface in Spring
+(In this article, we will learn why we need ApplicationContextAware and how do we use it)
+-------------------------------------------------------------------------------------------
+Spring is an open source framework for Java and J2EE application development. 
+The framework is widely used mainly in enterprise applications. 
+There are several modules of spring available. 
+The application context is one of the important concepts in spring framework.
+You need to get hold of the application context to get different services inside
+the framework and use it effectively in application design.
+
+Sometimes it is needed to access context object inside bean class to create another bean.
+But the context object is created into another class, how we access this context object inside the bean class, 
+once it is created inside the invoking bean factory class.
+This can be achieved using ApplicationContextAware class instance variable.
+
+
+

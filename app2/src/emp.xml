@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="emp1" class="com.nik.Employee">
+		<property name="id" value="12"></property>
+		<property name="fname" value="ram"></property>
+		<property name="lname" value="sita"></property>
+		<property name="weight" value="120"></property>
+		<property name="salary" value="120000"></property>
+		<property name="mail">
+			<list>
+				<value>abc@gmail.com</value>
+				<value>123@gmail.com</value>
+				<value>xyz@yahho.com</value>
+				<value>abc@rediff.com</value>
+				<value>abc@hotmail.com</value>
+			</list>
+		</property>
+		<property name="lovers">
+			<list>
+				<value>java</value>
+				<value>j2ee</value>
+				<value>spring</value>
+				<value>struts</value>
+				<value>hibernate</value>
+			</list>
+		</property>
+		<property name="mobileno">
+			<set>
+				<value>1234567890</value>
+				<value>9898989898</value>
+				<value>8979899999</value>
+				<value>8979899999</value>
+			</set>
+		</property>
+		<property name="education">
+			<map>
+				<entry key="graduation" value="BE"></entry>
+				<entry key="post-graduation" value="MCA"></entry>
+				<entry key="doctrate" value="MBBS"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>

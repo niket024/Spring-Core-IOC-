@@ -1,0 +1,9 @@
+package com.nik;
+
+public class A
+{
+	private A()
+	{
+		// TODO Auto-generated constructor stub
+	}
+}

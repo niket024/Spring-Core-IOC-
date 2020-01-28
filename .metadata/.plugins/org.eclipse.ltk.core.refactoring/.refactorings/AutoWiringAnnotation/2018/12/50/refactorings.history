@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AutoWiringAnnotation/src/main/java/com/nik/Person1.java&apos; to &apos;Person.java&apos;" description="Rename resource &apos;Person1.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/nik/Person1.java" name="Person.java" stamp="1544424578771" updateReferences="true"/>
+</session>

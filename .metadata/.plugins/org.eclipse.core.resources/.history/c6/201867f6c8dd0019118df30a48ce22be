@@ -1,0 +1,13 @@
+package com.nik;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Manager
+{
+	public static void main(String[] args)
+	{
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+				"config.xml");
+		context.getBean("p1");
+	}
+}

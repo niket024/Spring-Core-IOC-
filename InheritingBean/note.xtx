@@ -1,0 +1,4 @@
+Inheriting Bean in Spring
+--------------------------
+By using the parent attribute of bean, we can specify the inheritance relation between the beans. 
+In such case, parent bean values will be inherited to the current bean.

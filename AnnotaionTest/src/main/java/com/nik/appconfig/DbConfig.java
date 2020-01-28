@@ -1,0 +1,46 @@
+package com.nik.appconfig;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.nik.model.Categories;
+import com.nik.model.Product;
+import com.nik.model.Supplier;
+
+@Configuration
+public class DbConfig
+{
+	private static ApplicationContext applicationContext;
+
+	@Bean("categories")
+	public Categories getCategories()
+	{
+		return new Categories();
+	}
+
+	@Bean("supplier")
+	public Supplier getSupplier()
+	{
+		return new Supplier();
+	}
+
+	@Bean("product")
+	public Product getProduct(Categories categories, Supplier supplier)
+	{
+		return new Product(categories, supplier);
+	}
+
+	public static void main(String[] args)
+	{
+		applicationContext = new AnnotationConfigApplicationContext(
+				DbConfig.class);
+
+		System.out.println(applicationContext.getBean(Product.class)
+				.getCategories() == null ? "Null" : "Categories");
+		
+		System.out.println(applicationContext.getBean(Product.class)
+				.getSupplier() == null ? "Null" : "Supplier");
+	}
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="p1" class="com.nik.Person"
+ 		init-method ="myInit" 
+		destroy-method ="myRelease">
+		<property name="fname" value="nidhi"></property>
+		<property name="lname" value="Mol"></property>
+		<property name="age" value="23"></property>
+		<property name="address" value="madiwala"></property>
+	</bean>
+	
+<!-- 	<bean id="b1" class="com.nik.Book"> -->
+<!-- 		<property name="title" value="nidhi"></property> -->
+<!-- 		<property name="author" value="Mol"></property> -->
+		
+<!-- 	</bean> -->
+</beans>

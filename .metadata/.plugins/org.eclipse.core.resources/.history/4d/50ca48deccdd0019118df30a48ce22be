@@ -1,0 +1,18 @@
+package com.nik;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Manager
+{
+	public static void main(String[] args)
+	{
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+				"config.xml");
+		//Person p1 = (Person) context.getBean("p1");
+		Person p1 = new Person();
+		System.out.println(p1.getId());
+		System.out.println(p1.getfName());
+		System.out.println(p1.getlName());
+		System.out.println(p1.getAge());
+	}
+}

@@ -1,0 +1,5 @@
+@DependsOn annotation in Spring
+-------------------
+The @DependsOn annotation in spring forces the IoC container to initialize one or more beans.
+This annotation is directly used on any class or indirectly annotated with @Component
+or on methods annotated with @Bean.

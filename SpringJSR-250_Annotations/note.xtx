@@ -1,0 +1,35 @@
+Spring JSR-250 Annotations (Java Specification Request)
+-------------------------------------------------------
+ JSR 250, as a Java Specification Request, has the objective to define a set of annotations 
+ that address common semantic concepts and therefore can be used by many Java EE and Java SE components.
+Spring also supports JSR-250 based annotations which include 
+1. @PostConstruct
+2. @PreDestroy and 
+3. @Resource annotations. 
+
+Though these annotations are not really required because you already have other alternates..
+
+
+Difference between @Autowired and @Resource in Spring
+-------------------------------------------------------
+The main difference is that @Autowired wires per type and @Resource wires per bean name. 
+But @Autowired in combination with @Qualifier also autowires by name.
+
+@Autowired is a spring annotation whereas @Resource is specified by the JSR-250. 
+So the latter is part of normal java where as @Autowired is only available by spring.
+
+Spring 3 and JSR-330
+-----------------------
+Since Spring 3.0, Spring supports for the standard JSR 330: Dependency Injection for Java. In Spring 3 application, you can uses standard
+
+1. @Inject instead of Spring’s @Autowired to inject a bean.
+2. @Named instead of Spring’s @Component to declare a bean.
+
+Those JSR-330 standard annotations are scanned and retrieved the same way as Spring annotations, 
+the integration just happened automatically, as long as the following jar in your classpath.
+
+<dependency>
+	<groupId>javax.inject</groupId>
+	<artifactId>javax.inject</artifactId>
+	<version>1</version>
+</dependency>

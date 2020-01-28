@@ -1,0 +1,21 @@
+Spring 3 and JSR-330
+-----------------------
+Since Spring 3.0, Spring supports for the standard JSR 330: Dependency Injection for Java. In Spring 3 application, you can uses standard
+
+1. @Inject instead of Spring’s @Autowired to inject a bean.
+2. @Named instead of Spring’s @Component to declare a bean.
+
+Those JSR-330 standard annotations are scanned and retrieved the same way as Spring annotations, 
+the integration just happened automatically, as long as the following jar in your classpath.
+
+<dependency>
+	<groupId>javax.inject</groupId>
+	<artifactId>javax.inject</artifactId>
+	<version>1</version>
+</dependency>
+
+Spring Annotations
+----------------------
+ 1.@Component, 
+ 2.@Repository 
+ 3.@Service 

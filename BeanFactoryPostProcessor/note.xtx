@@ -1,0 +1,6 @@
+BeanFactoryPostProcessor in Spring
+-------------------------------------
+BeanFactoryPostProcessor works on the bean definitions or configuration meta data of the bean 
+before beans are actually created. Spring provides multiple BeanFactoryPostProcessor beans,
+so it invoked to resolve run time dependencies such reading value from external property files. 
+In Spring application, BeanFactoryPostProcessor can modify the definition of any bean.

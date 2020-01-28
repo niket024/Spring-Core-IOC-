@@ -1,0 +1,30 @@
+Spring Framework
+-----------------
+It is one of the front end framework developed in java
+It is an open resource
+
+Advantages:
+---------------
+1.It is light weight framework (basic version of spring is only 2.5 mb)
+2.Testing is very easy in spring framework
+3.It can access the project developed in another framework
+4.It is giving the high performance
+5.We can use any module independently
+
+Modules of SpringFramework:
+-------------------------
+1.IOC-Injection of control(core module)
+	(or) DI-Dependency Injection
+2.DAO-Data access Object
+	Spring with JDBC
+3.ORM-Object relational mapping
+	Spring with hibernate
+4.AOP-Aspect oriented programming
+	It is replacing the Filter of Servlet
+5.MVC-Model view controller
+	Web application developement
+	
+1.Programatic Approch-setting the properties of class by java program
+2.Declarative Approch-setting the properties of class by xml
+
+bean class

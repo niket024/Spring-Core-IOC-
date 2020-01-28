@@ -1,0 +1,17 @@
+package com.nik;
+
+public class Journey
+{
+	Travel travel;
+
+	public Travel getTravel()
+	{
+		return travel;
+	}
+
+	public void setTravel(Travel travel)
+	{
+		this.travel = travel;
+	}
+
+}

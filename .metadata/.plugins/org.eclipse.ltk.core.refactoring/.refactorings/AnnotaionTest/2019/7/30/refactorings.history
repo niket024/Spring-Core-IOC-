@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.nik.ManagerTest.main().context&apos; in &apos;com.nik.ManagerTest.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;AnnotaionTest&apos;&#x0D;&#x0A;- Original element: &apos;com.nik.ManagerTest.main().context&apos;&#x0D;&#x0A;- Field name: &apos;context&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;context&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src\/main\/java&lt;com.nik{ManagerTest.java" name="context" selection="255 65" stamp="1563884455422" static="true" version="1.0" visibility="2"/>
+</session>

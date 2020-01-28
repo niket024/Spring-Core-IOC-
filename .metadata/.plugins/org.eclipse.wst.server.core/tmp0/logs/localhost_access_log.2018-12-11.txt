@@ -1,0 +1,5 @@
+127.0.0.1 - - [11/Dec/2018:20:26:34 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [11/Dec/2018:20:26:37 +0530] "GET /HelloServlet/index.jsp HTTP/1.1" 200 52
+127.0.0.1 - - [11/Dec/2018:20:28:41 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [11/Dec/2018:20:28:42 +0530] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018:20:29:17 +0530] "GET /HelloServlet/index.jsp HTTP/1.1" 200 84

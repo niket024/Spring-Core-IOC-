@@ -1,0 +1,7 @@
+Coding To Interfaces in Spring
+----------------------------
+creates interfaces to delineate expected functionality, and then implements these "contracts" in concrete classes.
+ To use the interface one can simply call the methods on an instance of the concrete class.
+
+The obvious benefit is knowing of the functionality provided by the concrete class,
+irrespective of its specific implementation.

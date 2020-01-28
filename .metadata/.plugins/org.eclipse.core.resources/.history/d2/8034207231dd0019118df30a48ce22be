@@ -1,0 +1,10 @@
+package com.nik;
+
+public class Journey
+{
+	public void startJourney()
+	{
+		Bike bike = new Bike();
+		bike.goByBike();
+	}
+}

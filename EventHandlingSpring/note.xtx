@@ -1,0 +1,13 @@
+Event Handling in Spring
+------------------------
+Event handling in the ApplicationContext is provided through the ApplicationEvent class and ApplicationListener interface. 
+Hence, if a bean implements the ApplicationListener,
+then every time an ApplicationEvent gets published to the ApplicationContext, that bean is notified.
+
+Spring provides the following standard events −
+------------------------------------------
+1. ContextRefreshedEvent
+2. ContextStartedEvent
+3. ContextStoppedEvent
+4. ContextClosedEvent
+5. RequestHandledEvent -(This is a web-specific event telling all beans that an HTTP request has been serviced.)
