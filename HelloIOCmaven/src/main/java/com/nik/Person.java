@@ -7,6 +7,11 @@ public class Person
 	private String lname;
 	private int age;
 
+	public Person()
+	{
+		System.out.println("Object created");
+	}
+
 	public int getId()
 	{
 		return id;
@@ -14,6 +19,7 @@ public class Person
 
 	public void setId(int id)
 	{
+		System.out.println("setId");
 		this.id = id;
 	}
 

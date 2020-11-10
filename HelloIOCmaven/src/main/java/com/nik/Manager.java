@@ -8,10 +8,10 @@ public class Manager {
 
 	public static void main(String[] args) {
 		context = new ClassPathXmlApplicationContext("config.xml");
-		Person person = (Person) context.getBean("p1");
+		/*Person person = (Person) context.getBean("p1");
 		System.out.println(person.getId());
 		System.out.println(person.getFname());
 		System.out.println(person.getLname());
-		System.out.println(person.getAge());
+		System.out.println(person.getAge());*/
 	}
 }

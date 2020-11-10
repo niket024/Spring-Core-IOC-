@@ -5,6 +5,13 @@ import javax.annotation.PreDestroy;
 
 public class User
 {
+	
+	int id;
+	
+	public User(int id)
+	{
+		this.id=id;
+	}
 
 	@PostConstruct
 	public void init()
@@ -15,5 +22,13 @@ public class User
 	public void destroy()
 	{
 		System.out.println("destroy");
+	}
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+	public int getId()
+	{
+		return id;
 	}
 }

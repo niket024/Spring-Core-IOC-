@@ -8,6 +8,6 @@ public class Manager
 	public static void main(String[] args)
 	{
 		//Loose coupling
-		new Journey(new Bike()).startJourney();
+		new Journey(new Car()).startJourney();
 	}
 }

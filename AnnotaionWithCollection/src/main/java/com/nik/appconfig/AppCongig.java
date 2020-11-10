@@ -1,6 +1,5 @@
 package com.nik.appconfig;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,6 +19,7 @@ public class AppCongig
 	{
 		return new Product();
 	}
+	
 	@Bean("p1")
 	public Product1 getProductInstance()
 	{

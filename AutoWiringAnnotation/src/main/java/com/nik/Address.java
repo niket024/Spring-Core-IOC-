@@ -1,10 +1,15 @@
 package com.nik;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Address
 {
 	private String city;
 	private String state;
-
+	//For cyclic dependencies
+	/*@Autowired
+	Person person;*/
+	
 	public Address()
 	{
 		System.out.println("cons-address");

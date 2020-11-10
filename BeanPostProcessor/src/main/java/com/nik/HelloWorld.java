@@ -4,8 +4,14 @@ public class HelloWorld
 {
 	private String message;
 
+	public HelloWorld()
+	{
+		System.out.println("cons");
+	}
+
 	public void setMessage(String message)
 	{
+		System.out.println("setMessage");
 		this.message = message;
 	}
 

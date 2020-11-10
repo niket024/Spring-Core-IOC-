@@ -1,9 +1,0 @@
-package com.nik;
-
-public class Car
-{
-	public void go()
-	{
-		System.out.println("Travelling by car");
-	}
-}

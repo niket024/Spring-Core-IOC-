@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.DependsOn;
 
 import com.nik.model.Categories;
 import com.nik.model.Product;
@@ -27,6 +28,7 @@ public class DbConfig
 	}
 
 	@Bean("product")
+	@DependsOn(value = { "categories", "supplier" })
 	public Product getProduct(Categories categories, Supplier supplier)
 	{
 		return new Product(categories, supplier);

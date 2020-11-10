@@ -14,5 +14,8 @@ public static void main(String[] args)
 	applicationContext = new AnnotationConfigApplicationContext(PropertyConfig.class);
 	
 	System.out.println(applicationContext.getBean("hello"));
+	System.out.println(applicationContext.getBean("user"));
+
+	
 }
 }

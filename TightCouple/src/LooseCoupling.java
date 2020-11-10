@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class LooseCoupling
 {
 	static void common(Area a1)

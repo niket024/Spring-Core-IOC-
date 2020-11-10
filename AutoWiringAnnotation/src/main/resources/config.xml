@@ -10,6 +10,7 @@
 		<property name="city" value="banglore"></property>
 		<property name="state" value="kar"></property>
 	</bean>
+	
 	<bean id="address2" class="com.nik.Address">
 		<property name="city" value="Delhi"></property>
 		<property name="state" value="Delhi"></property>

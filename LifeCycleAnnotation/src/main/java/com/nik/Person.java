@@ -9,10 +9,11 @@ public class Person
 	{
 		System.out.println("Person");
 	}
+	
 	@PostConstruct
 	public void myInit()
 	{
-		System.out.println("Something before");
+		System.out.println("Something after person object creation");
 	}
 
 	@PreDestroy
