@@ -15,6 +15,7 @@
 			<item value="[artifactId]-[version]"/>
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
@@ -52,6 +53,19 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="ConstructorInjection"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ConstructorInjection"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="C:\Niket\Java material\Spring-IOC\Injection"/>
@@ -67,12 +81,16 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.nik"/>
+			<item value="com.nik.constructorInjectionMaven"/>
 		</list>
 		<list key="groupId">
+			<item value="com.nik"/>
 			<item value="LifeCycleAnnotation"/>
 			<item value="TestHello"/>
 		</list>
 		<list key="artifactId">
+			<item value="cyclicdependencies"/>
+			<item value="constructorInjectionMaven"/>
 			<item value="LifeCycleAnnotation"/>
 			<item value="TestHello"/>
 		</list>

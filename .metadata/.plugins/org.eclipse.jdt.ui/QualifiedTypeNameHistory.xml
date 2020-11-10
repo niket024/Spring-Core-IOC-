@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.nik.Product"/>
-<fullyQualifiedTypeName name="com.nik.Categories"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="com.nik.Student"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.nik.Triangle"/>
 <fullyQualifiedTypeName name="com.nik.Circle"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -31,14 +28,11 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.nik.model.Product"/>
 <fullyQualifiedTypeName name="com.nik.model.Product1"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="Area"/>
 <fullyQualifiedTypeName name="Rectangle"/>
 <fullyQualifiedTypeName name="com.nik.Book"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="com.nik.AppConfig"/>
 <fullyQualifiedTypeName name="com.nik.model.User"/>
 <fullyQualifiedTypeName name="com.nik.model.Ecommerce"/>
@@ -52,7 +46,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="com.nik.App"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.nik.Bike"/>
 <fullyQualifiedTypeName name="com.nik.Journey"/>
 <fullyQualifiedTypeName name="java.lang.Runtime"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.nik.Address"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
