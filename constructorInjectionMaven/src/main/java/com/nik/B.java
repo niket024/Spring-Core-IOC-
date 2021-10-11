@@ -10,6 +10,7 @@ public class B
 		System.out.println("String param1");
 		this.param1 = param1;
 	}
+	
 
 	public B(Integer param2)
 	{

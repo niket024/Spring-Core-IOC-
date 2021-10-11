@@ -1,18 +1,20 @@
 package com.nik;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 public class App
 {
-	private static ApplicationContext context;
+	int k = 10 / 0;
+
+	static {
+		i = 90;
+	}
+	static int i;
 
 	public static void main(String[] args)
 	{
-		context = new AnnotationConfigApplicationContext(AppConfig.class);
+		new App();
+		int k;
+		// k=90;
+		System.out.println(i);
 
-		Person p1 = context.getBean(Person.class);
-		System.out.println(context.getBean(Person.class) == null ? "Null"
-				: "Ok");
 	}
 }

@@ -18,12 +18,14 @@ public class DbConfig
 	@Bean("categories")
 	public Categories getCategories()
 	{
+		System.out.println("Categories bean created");
 		return new Categories();
 	}
 
 	@Bean("supplier")
 	public Supplier getSupplier()
 	{
+		System.out.println("Supplier bean created");
 		return new Supplier();
 	}
 
@@ -31,6 +33,7 @@ public class DbConfig
 	@DependsOn(value = { "categories", "supplier" })
 	public Product getProduct(Categories categories, Supplier supplier)
 	{
+		System.out.println("Product bean created");
 		return new Product(categories, supplier);
 	}
 

@@ -22,6 +22,12 @@ public class TightCoupling
 			Rectangle r1 = new Rectangle();
 			r1.getArea();
 		}
+		else if(entity.equals("pogon"))
+		{
+			Polygon p1 = new Polygon();
+			p1.getArea();
+		}
+		
 		sc.close();
 	}
 }

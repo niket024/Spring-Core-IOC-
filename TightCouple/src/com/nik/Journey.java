@@ -8,4 +8,8 @@ public class Journey
 		Bike bike = new Bike();
 		bike.goByBike();
 	}
+	public void startJourney(Medium medium)
+	{
+		medium.travel(medium);
+	}
 }

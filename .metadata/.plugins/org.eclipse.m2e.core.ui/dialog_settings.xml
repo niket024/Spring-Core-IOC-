@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Niket\learning\git\Spring-Core-IOC-"/>
 			<item value="C:\Niket\Java material\IOC"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -84,11 +85,15 @@
 			<item value="com.nik.constructorInjectionMaven"/>
 		</list>
 		<list key="groupId">
+			<item value="SanaProject"/>
+			<item value="demoIOC"/>
 			<item value="com.nik"/>
 			<item value="LifeCycleAnnotation"/>
 			<item value="TestHello"/>
 		</list>
 		<list key="artifactId">
+			<item value="SanaProject"/>
+			<item value="demoIOC"/>
 			<item value="cyclicdependencies"/>
 			<item value="constructorInjectionMaven"/>
 			<item value="LifeCycleAnnotation"/>

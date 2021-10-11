@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 import com.nik.model.User;
 
 @Configuration
-@PropertySource("classpath:/application.properties")
+@PropertySource("application.properties")
 public class PropertyConfig
 {
 	@Value("${user.id}")

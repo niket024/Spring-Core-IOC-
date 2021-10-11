@@ -9,5 +9,7 @@ public class LooseCoupling
 	{
 
 		common(new Rectangle());
+		common(new Polygon());
+		common(new Circle());
 	}
 }

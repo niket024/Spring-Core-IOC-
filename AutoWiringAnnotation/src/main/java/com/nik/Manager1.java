@@ -10,6 +10,8 @@ public class Manager1
 		System.out.println(p1.getLname());
 		System.out.println(p1.getAddress().getCity());
 		System.out.println(p1.getAddress().getState());
+		Address a1 = (Address) Util.getBean("address1");
+		System.out.println(a1.getPerson().getFname());
 		System.out.println("done");
 
 	}

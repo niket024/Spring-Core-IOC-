@@ -10,7 +10,7 @@ public class InitHelloWorld implements BeanPostProcessor
 	{
 
 		System.out.println("BeforeInitialization : " + beanName);
-		return bean; 
+		return bean;
 	}
 
 	public Object postProcessAfterInitialization(Object bean, String beanName)
@@ -18,6 +18,6 @@ public class InitHelloWorld implements BeanPostProcessor
 	{
 
 		System.out.println("AfterInitialization : " + beanName);
-		return bean; 
+		return bean;
 	}
 }

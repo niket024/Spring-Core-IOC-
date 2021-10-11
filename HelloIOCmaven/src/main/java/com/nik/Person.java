@@ -9,7 +9,7 @@ public class Person
 
 	public Person()
 	{
-		System.out.println("Object created");
+		System.out.println("Object Person created");
 	}
 
 	public int getId()
@@ -51,6 +51,13 @@ public class Person
 	public void setAge(int age)
 	{
 		this.age = age;
+	}
+
+	@Override
+	public String toString()
+	{
+		return "Person [id=" + id + ", fname=" + fname + ", lname=" + lname
+				+ ", age=" + age + "]";
 	}
 
 }

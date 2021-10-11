@@ -8,9 +8,11 @@ public class Person
 	private int id;
 	private String fname;
 	private String lname;
-	@Autowired
+	/*@Autowired
 	// To achive autowired by name uncomment it. By default it is by type
-	@Qualifier("address2")
+	@Qualifier("address2")*/
+	@Autowired
+	//@Qualifier("address2")
 	Address address;
 
 	public int getId()
